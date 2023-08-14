@@ -1,0 +1,525 @@
+{
+  "maincategory": [
+    {
+      "id": 0
+    },
+    {
+      "name": "kids",
+      "id": 1
+    },
+    {
+      "name": "Male",
+      "id": 2
+    },
+    {
+      "id": 3,
+      "name": "Female"
+    }
+  ],
+  "subcategory": [
+    {
+      "id": 0
+    },
+    {
+      "name": "Trouser",
+      "id": 1
+    },
+    {
+      "name": "T-shirt",
+      "id": 2
+    },
+    {
+      "name": "Shirt",
+      "id": 3
+    },
+    {
+      "name": "Jeans",
+      "id": 4
+    }
+  ],
+  "brand": [
+    {
+      "id": 0
+    },
+    {
+      "id": 1,
+      "name": "Mufti",
+      "pic": "mufti.png"
+    },
+    {
+      "id": 2,
+      "name": "Adidas",
+      "pic": "adidas.png"
+    },
+    {
+      "id": 3,
+      "name": "Nike",
+      "pic": "nike.png"
+    },
+    {
+      "id": 4,
+      "name": "Polo",
+      "pic": "U.S.-Polo-Assn-Logo.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Gucci",
+      "pic": "gucci.png"
+    },
+    {
+      "id": 6,
+      "name": "Zara",
+      "pic": "zara.png"
+    },
+    {
+      "id": 7,
+      "name": "Tommy Hilfiger",
+      "pic": "tommy-hilfiger.png"
+    }
+  ],
+  "user": [
+    {
+      "id": 0
+    },
+    {
+      "name": "Sugam Kumar Singh",
+      "username": "Sugam",
+      "email": "adeebabasit78600@gmail.com",
+      "phone": "9690260282",
+      "password": "Sugam@123",
+      "role": "Buyer",
+      "id": 1,
+      "address": "A-43 Sector 16 Noida Behind MaCD",
+      "pin": "201301",
+      "city": "noida",
+      "state": "UP",
+      "pic": "p41.jpg"
+    },
+    {
+      "name": "Adeeba Basit",
+      "username": "Adeeba",
+      "email": "adeebabasit78600@gmail.com",
+      "phone": "8923385807",
+      "password": "Adeeba@123",
+      "role": "Admin",
+      "id": 2,
+      "pic": "p23.jpg"
+    },
+    {
+      "name": "",
+      "username": "",
+      "email": "",
+      "phone": "",
+      "password": "",
+      "role": "Buyer",
+      "id": 3
+    }
+  ],
+  "product": [
+    {
+      "id": 0
+    },
+    {
+      "id": 1,
+      "name": "Male Jeans Slim Fit",
+      "maincategory": "Male",
+      "subcategory": "Jeans",
+      "brand": "Gucci",
+      "color": "black",
+      "size": "36",
+      "baseprice": "5600",
+      "discount": "50",
+      "finalprice": 2800,
+      "stock": "In Stock",
+      "description": "This is Sample Product",
+      "pic1": "p1.jpg",
+      "pic2": "p2.jpg",
+      "pic3": "p3.jpg",
+      "pic4": "p4.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Male tshirt Zara",
+      "maincategory": "Male",
+      "subcategory": "T-shirt",
+      "brand": "Gucci",
+      "color": "blue",
+      "size": "34",
+      "baseprice": "7800",
+      "discount": "78",
+      "finalprice": 1716,
+      "stock": "Out of Stock",
+      "description": "This is Sample Product",
+      "pic1": "p8.jpg",
+      "pic2": "p20.jpg",
+      "pic3": "p41.jpg",
+      "pic4": "p68.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Male Jeans Black",
+      "maincategory": "Male",
+      "subcategory": "Trouser",
+      "brand": "Mufti",
+      "color": "Navy",
+      "size": "32",
+      "baseprice": "5500",
+      "discount": "50",
+      "finalprice": 2750,
+      "stock": "In Stock",
+      "description": "This is Sample Product",
+      "pic1": "p16.jpg",
+      "pic2": "p3.jpg",
+      "pic3": "p28.jpg",
+      "pic4": "p31.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Male Jeans Blue",
+      "maincategory": "Male",
+      "subcategory": "Jeans",
+      "brand": "Gucci",
+      "color": "black",
+      "size": "34",
+      "baseprice": "4800",
+      "discount": "50",
+      "finalprice": 2400,
+      "stock": "In Stock",
+      "description": "This is Sample Product",
+      "pic1": "p68.jpg",
+      "pic2": "p37.jpg",
+      "pic3": "p61.jpg",
+      "pic4": "p57.jpg"
+    },
+    {
+      "name": "Male T-shirt Polo",
+      "maincategory": "Male",
+      "subcategory": "T-shirt",
+      "brand": "Polo",
+      "color": "Red",
+      "size": "Md",
+      "baseprice": "4800",
+      "discount": "60",
+      "finalprice": 1920,
+      "stock": "In Stock",
+      "description": "This is Sample Product",
+      "pic1": "p8.jpg",
+      "pic2": "p9.jpg",
+      "pic3": "p7.jpg",
+      "pic4": "p6.jpg",
+      "id": 5
+    },
+    {
+      "name": "Male Shirt Nike",
+      "maincategory": "Male",
+      "subcategory": "Shirt",
+      "brand": "Nike",
+      "color": "White",
+      "size": "SM",
+      "baseprice": "4800",
+      "discount": "80",
+      "finalprice": 960,
+      "stock": "In Stock",
+      "description": "This is Sample Product",
+      "pic1": "p18.jpg",
+      "pic2": "p17.jpg",
+      "pic3": "p25.jpg",
+      "pic4": "p26.jpg",
+      "id": 6
+    },
+    {
+      "id": 7,
+      "name": "Male Jeans Black ",
+      "maincategory": "Male",
+      "subcategory": "Jeans",
+      "brand": "Gucci",
+      "color": "black",
+      "size": "XXL",
+      "baseprice": "9800",
+      "discount": "90",
+      "finalprice": 980,
+      "stock": "In Stock",
+      "description": "This is Sample Product",
+      "pic1": "p16.jpg",
+      "pic2": "p27.jpg",
+      "pic3": "p30.jpg",
+      "pic4": "p29.jpg"
+    },
+    {
+      "name": "Male Trouser Polo",
+      "maincategory": "Male",
+      "subcategory": "Trouser",
+      "brand": "Polo",
+      "color": "Navy",
+      "size": "36",
+      "baseprice": "5800",
+      "discount": "50",
+      "finalprice": 2900,
+      "stock": "In Stock",
+      "description": "This is Sample Product",
+      "pic1": "p3.jpg",
+      "pic2": "p31.jpg",
+      "pic3": "p34.jpg",
+      "pic4": "p19.jpg",
+      "id": 8
+    },
+    {
+      "name": "Female jeans Slim Fit",
+      "maincategory": "Female",
+      "subcategory": "Jeans",
+      "brand": "Zara",
+      "color": "Blue",
+      "size": "34",
+      "baseprice": "6800",
+      "discount": "70",
+      "finalprice": 2040,
+      "stock": "In Stock",
+      "description": "This is Sample Product",
+      "pic1": "p15.jpg",
+      "pic2": "p14.jpg",
+      "pic3": "p23.jpg",
+      "pic4": "p31.jpg",
+      "id": 9
+    },
+    {
+      "name": "Female Tshirt Polo",
+      "maincategory": "Female",
+      "subcategory": "T-shirt",
+      "brand": "Nike",
+      "color": "Blue",
+      "size": "MD",
+      "baseprice": "5000",
+      "discount": "50",
+      "finalprice": 2500,
+      "stock": "In Stock",
+      "description": "This is Sample Product",
+      "pic1": "p6.jpg",
+      "pic2": "p7.jpg",
+      "pic3": "p9.jpg",
+      "pic4": "p14.jpg",
+      "id": 10
+    },
+    {
+      "name": "Female trouser Black",
+      "maincategory": "Female",
+      "subcategory": "Trouser",
+      "brand": "Gucci",
+      "color": "Green",
+      "size": "32",
+      "baseprice": "48600",
+      "discount": "80",
+      "finalprice": 9720,
+      "stock": "In Stock",
+      "description": "This is Sample Product",
+      "pic1": "p15.jpg",
+      "pic2": "p23.jpg",
+      "pic3": "p22.jpg",
+      "pic4": "p24.jpg",
+      "id": 11
+    },
+    {
+      "name": "Kids Jeans Tommy Hilfiger",
+      "maincategory": "kids",
+      "subcategory": "Jeans",
+      "brand": "Tommy Hilfiger",
+      "color": "black",
+      "size": "24",
+      "baseprice": "5800",
+      "discount": "60",
+      "finalprice": 2320,
+      "stock": "In Stock",
+      "description": "This is Sample Product",
+      "pic1": "p2.jpg",
+      "pic2": "p4.jpg",
+      "pic3": "p5.jpg",
+      "pic4": "p10.jpg",
+      "id": 12
+    },
+    {
+      "name": "kids clothes",
+      "maincategory": "kids",
+      "subcategory": "Trouser",
+      "brand": "Polo",
+      "color": "yellow",
+      "size": "SM",
+      "baseprice": "3500",
+      "discount": "40",
+      "finalprice": 2100,
+      "stock": "Out of Stock",
+      "description": "This is Sample Product",
+      "pic1": "p59.jpg",
+      "pic2": "p32.jpg",
+      "pic3": "p63.jpg",
+      "pic4": "p65.jpg",
+      "id": 13
+    },
+    {
+      "name": "Male Jeans Gucci",
+      "maincategory": "Male",
+      "subcategory": "Jeans",
+      "brand": "Gucci",
+      "color": "Red",
+      "size": "38",
+      "baseprice": "5600",
+      "discount": "56",
+      "finalprice": 2464,
+      "stock": "In Stock",
+      "description": "This is Sample Product",
+      "pic1": "p61.jpg",
+      "pic2": "p29.jpg",
+      "pic3": "p28.jpg",
+      "pic4": "p46.jpg",
+      "id": 14
+    },
+    {
+      "name": "Female trouser Black",
+      "maincategory": "Female",
+      "subcategory": "Trouser",
+      "brand": "Gucci",
+      "color": "Grey",
+      "size": "26",
+      "baseprice": "6800",
+      "discount": "70",
+      "finalprice": 2040,
+      "stock": "In Stock",
+      "description": "This is Sample Product",
+      "pic1": "p50.jpg",
+      "pic2": "p67.jpg",
+      "pic3": "p15.jpg",
+      "pic4": "p14.jpg",
+      "id": 15
+    },
+    {
+      "name": "Male Jeans Gucci",
+      "maincategory": "Male",
+      "subcategory": "Jeans",
+      "brand": "Gucci",
+      "color": "Navy",
+      "size": "36",
+      "baseprice": "4400",
+      "discount": "44",
+      "finalprice": 2464,
+      "stock": "In Stock",
+      "description": "This is Sample Product",
+      "pic1": "p16.jpg",
+      "pic2": "p27.jpg",
+      "pic3": "p31.jpg",
+      "pic4": "p37.jpg",
+      "id": 16
+    }
+  ],
+  "cart": [
+    {
+      "id": 0
+    }
+  ],
+  "wishlist": [
+    {
+      "id": 0
+    },
+    {
+      "userid": "1",
+      "productid": 16,
+      "name": "Male Jeans Gucci",
+      "brand": "Gucci",
+      "color": "Navy",
+      "size": "36",
+      "pic": "p16.jpg",
+      "price": 2464,
+      "id": 1
+    },
+    {
+      "userid": "1",
+      "productid": 12,
+      "name": "Kids Jeans Tommy Hilfiger",
+      "brand": "Tommy Hilfiger",
+      "color": "black",
+      "size": "24",
+      "pic": "p2.jpg",
+      "price": 2320,
+      "id": 2
+    }
+  ],
+  "checkout": [
+    {
+      "id": 0
+    },
+    {
+      "userid": "2",
+      "paymentmode": "COD",
+      "paymentstatus": "Done",
+      "orderstatus": "Delivered",
+      "subtotal": 10620,
+      "shipping": 0,
+      "total": 10620,
+      "products": [
+        {
+          "userid": "2",
+          "productid": 15,
+          "name": "Female trouser Black",
+          "brand": "Gucci",
+          "color": "Grey",
+          "size": "26",
+          "pic": "p50.jpg",
+          "price": 2040,
+          "qty": 3,
+          "total": 6120,
+          "id": 1
+        },
+        {
+          "userid": "2",
+          "productid": 4,
+          "name": "Male Jeans Blue",
+          "brand": "Gucci",
+          "color": "black",
+          "size": "34",
+          "pic": "p68.jpg",
+          "price": 2400,
+          "qty": 1,
+          "total": 2400,
+          "id": 2
+        },
+        {
+          "userid": "2",
+          "productid": 13,
+          "name": "kids clothes",
+          "brand": "Polo",
+          "color": "yellow",
+          "size": "SM",
+          "pic": "p59.jpg",
+          "price": 2100,
+          "qty": 1,
+          "total": 2100,
+          "id": 3
+        }
+      ],
+      "date": "7/19/2023",
+      "id": 1,
+      "status": "Done"
+    }
+  ],
+  "newsletter": [
+    {
+      "id": 0
+    },
+    {
+      "email": "dikshagoswami@gmail.com",
+      "id": 1
+    }
+  ],
+  "contact": [
+    {
+      "id": 0
+    },
+    {
+      "name": "Adeeba Basit",
+      "email": "adeebabasit78600@gmail.com",
+      "phone": "0919 347 0877",
+      "subject": "This is a sample message",
+      "message": "This is a sample messageThis is a sample messageThis is a sample messageThis is a sample messageThis is a sample messageThis is a sample messageThis is a sample messageThis is a sample messageThis is a sample messageThis is a sample messageThis is a sample messageThis is a sample messageThis is a sample messageThis is a sample messageThis is a sample messageThis is a sample messageThis is a sample messageThis is a sample messageThis is a sample message",
+      "status": "Active",
+      "date": "2023-07-19T09:44:21.026Z",
+      "id": 1
+    }
+  ]
+}
